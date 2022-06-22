@@ -150,7 +150,7 @@ ul {
 @media (max-width: 992px) {
     .info {
         position: absolute;
-        top: 25%;
+        top: 180px;
         left: 50%;
         transform: translate(-50%, -50%);
         opacity: 0;
@@ -159,7 +159,7 @@ ul {
 
     .active-social {
         opacity: 1;
-        top: 21%;
+        top: 160px;
     }
 }
 
@@ -429,12 +429,13 @@ ul {
         left: 0;
         justify-content: center;
         flex-direction: column;
-        top: 90px;
+        top: -197px;
         align-items: center;
         z-index: -1;
-        transition: var(--main-transition);
+        transition: 0.8s;
         opacity: 0;
     }
+    
 }
 .active-nav {
     opacity: 1 !important;
